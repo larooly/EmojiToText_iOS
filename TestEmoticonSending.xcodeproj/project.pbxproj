@@ -16,6 +16,7 @@
 		5138E88D24D7C50500C3C6C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5138E88C24D7C50500C3C6C9 /* main.m */; };
 		5138E89724D7C50500C3C6C9 /* TestEmoticonSendingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5138E89624D7C50500C3C6C9 /* TestEmoticonSendingTests.m */; };
 		5138E8A224D7C50500C3C6C9 /* TestEmoticonSendingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5138E8A124D7C50500C3C6C9 /* TestEmoticonSendingUITests.m */; };
+		5138E8B024D7C53800C3C6C9 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5138E8AF24D7C53800C3C6C9 /* yellow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		5138E89D24D7C50500C3C6C9 /* TestEmoticonSendingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestEmoticonSendingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5138E8A124D7C50500C3C6C9 /* TestEmoticonSendingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestEmoticonSendingUITests.m; sourceTree = "<group>"; };
 		5138E8A324D7C50500C3C6C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5138E8AF24D7C53800C3C6C9 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellow.png; path = ../../../Desktop/imagedata/yellow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				5138E88624D7C50500C3C6C9 /* Assets.xcassets */,
 				5138E88824D7C50500C3C6C9 /* LaunchScreen.storyboard */,
 				5138E88B24D7C50500C3C6C9 /* Info.plist */,
+				5138E8AF24D7C53800C3C6C9 /* yellow.png */,
 				5138E88C24D7C50500C3C6C9 /* main.m */,
 			);
 			path = TestEmoticonSending;
@@ -243,6 +246,7 @@
 				5138E88A24D7C50500C3C6C9 /* LaunchScreen.storyboard in Resources */,
 				5138E88724D7C50500C3C6C9 /* Assets.xcassets in Resources */,
 				5138E88524D7C50400C3C6C9 /* Main.storyboard in Resources */,
+				5138E8B024D7C53800C3C6C9 /* yellow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +446,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4XL58DYFGP;
 				INFOPLIST_FILE = TestEmoticonSending/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +464,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4XL58DYFGP;
 				INFOPLIST_FILE = TestEmoticonSending/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

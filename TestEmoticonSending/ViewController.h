@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITextViewDelegate>
 
+@property (weak, nonatomic) IBOutlet UITextView *Input;
+- (IBAction)Convert:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *Output;
 
 @end
 
